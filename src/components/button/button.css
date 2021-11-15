@@ -1,0 +1,83 @@
+.button{
+    
+    /* display: flex;
+    flex: 0 1 25%;
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+    line-height: 60px;
+    width: 60px;
+    height: 60px;
+    background: #333;
+    border-radius: 50%;
+    font-family: Arial;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button.bg-orange{
+    background: #ff9501
+}
+
+.button.bg-grey{
+    background: #a6a6a6;
+    color: #000;
+}
+
+.zero-btn{
+    width: 130px;
+    border-radius: 34px;
+}
+/* .button[data-value="null"] {
+    height: 20%;
+    display: flex;
+    border: 1px solid rgba(0,0,0,0.05);
+    box-sizing: border-box;
+    background: black;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    height: 20%;
+    min-width: 25%;
+}
+
+.button[data-value="null"]:before{
+    content: " ";
+    width: 10px;
+    background: black;
+    height: 35px;
+    position: absolute;
+    top: -10px;
+    transform: rotate(50deg);
+    left: -10px;
+}
+
+.button[data-value="null"]:after{
+    content: " ";
+    width: 10px;
+    background: black;
+    height: 35px;
+    position: absolute;
+    top: -10px;
+    transform: rotate(-50deg);
+    right: -10px;
+} */
+
+.button:hover{
+    filter: brightness(140%);
+}
+
+.button:active{
+    filter: brightness(90%);
+}
+
+.button.divide{
+    font-size: 2rem;
+}
+
+.button.minus{
+    font-size: 2rem;
+}
